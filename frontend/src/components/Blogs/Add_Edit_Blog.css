@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.addNews-body {
+    display: flex;
+    position: absolute;
+    transform: translate(15%,10%);
+    padding-top: 10vh;
+    width:80%;
+    min-width:max-content ;
+    height:70vh;
+    min-height: 50vh;
+    justify-content: center;
+    background-size: cover;
+    background-image: url('../images/waves.jpg');
+    background-repeat: no-repeat;
+}
+.addNews-inputs {
+    display: flex;
+    flex-direction: column;
+}
+.addNews-btns {
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    padding-left: 26px;
+}
